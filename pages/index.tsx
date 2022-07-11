@@ -15,7 +15,7 @@ export default function Index() {
       <Header />
 
       <Main>
-        <h1 className="pb-2 text-xl text-center font-extrabold text-gray-800">
+        <h1 className="pb-2 text-2xl text-center font-extrabold text-gray-800">
           Немного о нас
         </h1>
       
@@ -27,12 +27,12 @@ export default function Index() {
       </Main>
 
       <Main>
-        <h1 className="pb-2 text-xl text-center font-extrabold text-gray-800">
+        <h1 className="pb-2 text-2xl text-center font-extrabold text-gray-800">
           Что мы производим
         </h1>
       
         <h2 className="mt-2 pb-2 text-lg text-left font-extrabold text-gray-800">
-          КУХНИ
+          Кухни
         </h2>
       
         <p className="mt-[-0.5rem]">
@@ -40,7 +40,7 @@ export default function Index() {
         </p>
       
         <h2 className="mt-2 pb-2 text-lg text-left font-extrabold text-gray-800">
-          ШКАФЫ КУПЕ
+          Шкафы Купе
         </h2>
        
         <p className="mt-[-0.5rem]">
@@ -48,7 +48,7 @@ export default function Index() {
         </p>
        
         <h2 className="mt-2 pb-2 text-lg text-left font-extrabold text-gray-800">
-          ДВЕРИ КУПЕ
+          Двери Купе
         </h2>
       
         <p className="mt-[-0.5rem]">
