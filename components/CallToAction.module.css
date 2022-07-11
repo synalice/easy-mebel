@@ -1,0 +1,4 @@
+.btn {
+  @apply border border-gray-400 bg-white hover:bg-gray-200 active:bg-gray-400 p-1 text-center font-semibold select-none flex justify-center items-center
+  h-16 w-60 shadow-inner rounded-full transition-all;
+}
