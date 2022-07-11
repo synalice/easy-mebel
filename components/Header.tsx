@@ -4,8 +4,8 @@ import s from "./Header.module.css";
 
 export default function Header() {
   return (
-    <div>
-      <div className="flex justify-center mb-2 mt-2 bg-yellow-600">
+    <>
+      <div className="flex justify-center my-2 bg-slate-500">
         <div className="hover:cursor-pointer">
           <Link href={"/"}>
             <Image
@@ -24,7 +24,7 @@ export default function Header() {
         <MyLink href="/gallery" cssClass={s.btn} text="Галерея" />
         <MyLink href="/about" cssClass={s.btn} text="О нас" />
       </nav>
-    </div>
+    </>
   );
 }
 
