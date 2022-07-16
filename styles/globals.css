@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-2xl font-extrabold pb-3 text-center text-gray-800;
+  }
+  h2 {
+    @apply text-lg font-extrabold pb-3 text-center text-gray-800;
+  }
+}
