@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="flex items-center justify-between bg-slate-300 h-16 mt-2 p-2 text-gray-500">
+    <footer className="flex items-center justify-between bg-slate-300 h-16 my-2 p-2 text-gray-500 mx-2 lg:max-w-4xl lg:mx-auto">
       <span>
         © 2022 Easy Mebel
       </span>
@@ -9,6 +9,6 @@ export default function Footer() {
           Дизайн сайта
         </a>
       </span>
-    </div>
+    </footer>
   );
 }

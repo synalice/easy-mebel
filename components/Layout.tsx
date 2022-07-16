@@ -4,8 +4,8 @@ interface ILayoutProps {
 
 export default function Layout({ children }: ILayoutProps) {
   return (
-    <div className="mx-2 lg:max-w-4xl lg:mx-auto">
+    <main className="mx-2 lg:max-w-4xl lg:mx-auto min-h-screen">
       {children}
-    </div>
+    </main>
   );
 }

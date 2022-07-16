@@ -5,7 +5,7 @@ import s from "./Header.module.css";
 export default function Header() {
   return (
     <>
-      <div className="flex justify-center my-2 bg-slate-500">
+      <header className="flex justify-center my-2 bg-slate-500">
         <div className="hover:cursor-pointer">
           <Link href={"/"}>
             <Image
@@ -17,7 +17,7 @@ export default function Header() {
             />
           </Link>
         </div>
-      </div>
+      </header>
       <nav className="grid grid-cols-2 grid-rows-2 gap-3 lg:grid-cols-4 lg:grid-rows-1">
         <MyLink href="/" cssClass={s.btn} text="Главная" />
         <MyLink href="/contacts" cssClass={s.btn} text="Контакты" />
