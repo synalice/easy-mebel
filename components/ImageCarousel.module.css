@@ -1,0 +1,3 @@
+.embla__slide_style {
+  @apply relative flex-grow-0 flex-shrink-0 basis-full flex justify-center;
+}
