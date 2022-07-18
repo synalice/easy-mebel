@@ -1,0 +1,23 @@
+.embla {
+  @apply relative bg-slate-200 p-5 max-w-2xl mx-auto;
+}
+
+.embla_viewport {
+  @apply overflow-hidden w-full;
+}
+
+.embla_container {
+  @apply flex select-none -ml-[10px];
+}
+
+.embla_slide {
+  @apply relative min-w-full pl-[10px];
+}
+
+.embla_slide_inner {
+  @apply relative overflow-hidden h-48;
+}
+
+.embla_dots {
+  @apply flex justify-center pt-3
+}
