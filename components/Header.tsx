@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <header className="flex justify-center my-2 bg-slate-500">
-        <div className="hover:cursor-pointer">
+        <div className="hover:cursor-pointer select-none">
           <Link href={"/"}>
             <Image
               src="/logo.png"
