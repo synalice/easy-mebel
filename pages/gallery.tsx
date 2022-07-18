@@ -1,6 +1,7 @@
 import { InferGetServerSidePropsType } from "next";
 
 import * as fs from "fs";
+import path from "path";
 
 import Head from "next/head";
 import Header from "../components/Header";
@@ -10,7 +11,8 @@ import Article from "../components/Article";
 import Footer from "../components/Footer";
 
 export async function getServerSideProps() {
-  const slides: string[] = fs.readdirSync("./public/carousel/").map(file => "/carousel/" + file)
+  const pathToCarousel = path.join(process.cwd(), "public", "carousel")
+  const slides: string[] = fs.readdirSync(pathToCarousel).map(file => "/carousel/" + file)
 
   return {
     props: {
