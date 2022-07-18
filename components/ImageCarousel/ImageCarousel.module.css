@@ -1,5 +1,5 @@
 .embla {
-  @apply relative bg-slate-200 p-5 max-w-2xl mx-auto;
+  @apply relative  p-5 max-w-2xl mx-auto;
 }
 
 .embla_viewport {
