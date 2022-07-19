@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 @layer base {
+  
   h1 {
-    @apply text-2xl font-extrabold pb-3 text-center text-gray-800;
+    @apply text-xl lg:text-2xl font-extrabold pb-3 text-center text-gray-700;
   }
+
   h2 {
-    @apply text-lg font-extrabold pb-3 text-center text-gray-800;
+    @apply text-lg lg:text-xl font-extrabold mt-2 pb-1 text-center text-gray-700;
   }
+
+  p {
+    @apply text-base lg:text-lg
+  }
+
+  a.clickableLink {
+    @apply hover:underline underline-offset-2
+  }
+
 }

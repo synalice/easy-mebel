@@ -4,7 +4,7 @@ export default function Footer() {
       <span>
         © 2022 Easy Mebel
       </span>
-      <span className="underline-offset-4 hover:underline">
+      <span>
         <a href="https://github.com/synalice">
           Дизайн сайта
         </a>
