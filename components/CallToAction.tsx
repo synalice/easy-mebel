@@ -4,7 +4,12 @@ export default function CallToAction({ text, phone }: { text: string, phone: str
   return (
     <div className="flex flex-col items-center justify-center my-3">
       <button className={s.btn} name="ctaBtn">
-        <a href={`tel:${phone}`}>{text}</a>
+        <a
+          href={`tel:${phone}`}
+          className="text-base lg:text-lg "
+        >
+          {text}
+        </a>
       </button>
     </div>
   );
